@@ -1,0 +1,120 @@
+.bg-image{
+height: 100vh;
+background-image: url(../img/hero-bg.jpg);
+
+background-position: center;
+
+background-size:cover;
+
+
+}
+
+
+
+.key-frams .frams::after{
+
+content: '';
+
+animation-name: ahmed;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-delay: 0.7s;
+}
+
+@keyframes ahmed {
+    0% {content: "|";}
+    3% {content: "D|";}
+    5% {content: "De|";}
+    7% {content: "Dev|";}
+    10% {content: "Deve|";}
+    13% {content: "Devel|";}
+    15% {content: "Develo|";}
+    17% {content: "Develop|";}
+    20% {content: "Developm|";}
+    24% {content: "Developme|";}
+    25% {content: "Developmen|";}
+    27% {content: "Development|";}
+    30% {content: "Development|";}
+    32% {content: "Developmen|";}
+    35% {content: "Developme|";}
+    37% {content: "Develop|";}
+    40% {content: "Develo|";}
+    42% {content: "Devel|";}
+    45% {content: "Deve|";}
+    47% {content: "Dev|";}
+    50% {content: "De|";}
+    52% {content: "Des|";}
+    55% {content: "Desi|";}
+    57% {content: "Desig|";}
+    60% {content: "Design|";}
+    62% {content: "Designe|";}
+    65% {content: "Designer|";}
+    67% {content: "Designer|";}
+    70% {content: "Designe|";}
+    72% {content: "Design|";}
+    75% {content: "Desig|";}
+    77% {content: "Desi|";}
+    80% {content: "Des|";}
+    82% {content: "De|";}
+    85% {content: "Dev|";}
+    87% {content: "Deve|";}
+    90% {content: "Devel|";}
+    92% {content: "Develo|";}
+    95% {content: "Develop|";}
+    97% {content: "Develope|";}
+    100% {content: "Developer|";}
+  }
+
+
+.position{
+background-color: rgba(0, 0, 0, 0.525);
+height: 100vh;
+}
+
+
+.box-shadow-full{
+box-shadow: 0px 0px 18px ;
+
+
+
+}
+
+
+.p-3{
+    box-shadow: 0px 0px 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+   .col-lg-4:hover{
+    transform:scaleY(1) ;
+    -webkit-transform:scaleY(1) ;
+    -moz-transform:scaleY(1) ;
+    -ms-transform:scaleY(1) ;
+    -o-transform:scaleY(1) ;
+}
+   
+.test{
+
+margin-bottom: 10px;
+padding: 25px 20px;
+ border: 3px solid cornflowerblue;
+ border-radius: 50%;
+-webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+-ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ background-color: black;
+}
+
+
+.SERVICES-ico:hover .test{
+
+background-color: red;
+
+
+}
